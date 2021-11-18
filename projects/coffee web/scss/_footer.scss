@@ -1,0 +1,18 @@
+footer{
+    position: relative;
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #415167;
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EDF0F5;
+        height: 60px;
+        top: 100%;
+    }
+    
+}

@@ -1,0 +1,134 @@
+%pr_box{
+    position: relative;
+    top: 72px;
+    width: 360px;
+    height: 562px;
+    background-color: white;
+    box-shadow: 0px 0px 15px #eee;
+    .content-names{
+        margin-left: 42px;
+        display: flex;
+        flex-direction: column;
+    }
+    .image {
+        
+        width: 360px;
+        height: 300px;
+        background-color: #EDF0F5;
+        
+    }
+    
+    .prices {
+        display: flex;
+        margin-top: 42px;
+        margin-bottom: 8px;
+        .price__item1{
+            @extend %price;
+        }
+        .price__item2{
+            font-family: "Nunito";
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 300;
+            line-height: 19px;
+            margin-left: 30px;
+            color: #415167;
+            text-decoration: line-through;
+
+        }
+        
+    }
+    .name {
+        @extend %title;
+        margin-bottom: 10px;
+
+    }
+    .about {
+        @extend %about;
+        margin-bottom: 32px;
+    }
+    .another{
+        .buy {
+            @extend %btn;
+            margin-right: 65px;
+            
+        }
+        .buy:hover{
+            box-shadow: 0 0 5px #C7A17A;
+        }
+        .buy:active{
+            box-shadow: 0 0 25px #C7A17A;
+        }
+        .more {
+            font-family: "Nunito";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+            color: #415167;
+        }
+        .more:hover{
+            text-decoration: underline;
+        }
+        
+    }
+
+}
+
+
+section{
+    #combo{
+        width: 1400px;
+        height: 906px;
+    }
+    .background{
+        margin-left: 1074px;
+        position: absolute;
+        width: 326px;
+        height: 906px;
+        background-color: #415167;
+    }
+    .combo-titles {
+        position: relative;
+        left: 537px;
+        top: 89px;
+        .combo-title {
+            margin-bottom:6px ;
+            margin-left: 48px;
+            font-family: "Nunito";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px;
+            color: #415167;
+        }
+        .combo-subtitle {
+            font-family: "Montserrat";
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 34px;
+            color:#415167 ;
+            margin-bottom: 72px;
+        }
+    }
+
+    .products {
+        position:absolute;
+        margin-left: 130px;
+        .product-box {
+            display: flex;
+            .box1 {
+                @extend %pr_box;
+            }
+            .box2{
+                margin-left: 30px;
+                @extend %pr_box;
+            }
+            .box3{
+                margin-left: 30px;
+                @extend %pr_box;;
+            }
+        }
+    }
+}

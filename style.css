@@ -1,0 +1,245 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+html {
+    overflow-x: initial !important;
+}
+body{
+    width: 1920px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+/* Header style */
+
+.header-container{
+    display: flex;
+    margin: 2% 0 0 0;
+}
+.navigation{
+    width: 40%;
+    margin-left: 30%;
+}
+.nav-container{
+    color: rgb(165, 165, 165);
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    font-size:25px;
+}
+a:hover{
+    text-decoration: underline darkgrey 2px;
+}
+
+/* Info style */
+
+.title-container{
+    margin: 10% 0 0 20%;
+    display: flex;
+
+}
+.info-container{
+    width: 40%;
+}
+.info-title{
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, serif;
+}
+.info-about{
+    margin-top: 2%;
+    color: rgb(165, 165, 165);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.profile-photo{
+    width: 20%;
+    height: 15%;
+    margin-left: 10%;
+}
+
+/* Skills style */
+
+#skills{
+    margin: 18% 0 0 0;
+}
+.title-skills{
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin-left: 47%;
+}
+.skills-wrapper{
+    margin: 2% 0 0 40%;
+}
+.skills-container{
+    margin-top: 2%;
+    
+}
+.item-skill{
+    list-style-type: circle;
+    margin-top: 2%;
+    color: rgb(165, 165, 165);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Projects style */
+
+#projects{
+    margin: 18% 0 0 0;
+}
+.title-project{
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin-left: 43%;
+}
+.projects-container{
+    width: 50%;
+    margin: 2% 0 0 25%;
+}
+.card1{
+    width: 100%;
+}
+.card1:hover{
+    -webkit-box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+    -moz-box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+    box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+}
+.card2{
+    margin-left: 10%;
+}
+.card2:hover{
+    -webkit-box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+    -moz-box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+    box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+}
+.card3{
+    margin-left: 15%;
+}
+.card3:hover{
+    -webkit-box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+    -moz-box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+    box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+}
+.card4{
+    margin-left: 32%;
+}
+.card4:hover{
+    -webkit-box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+    -moz-box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+    box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+}
+.card-title{
+    margin: 5% 0 2% 0;
+    text-align: center;
+}
+
+/* Resume style */
+
+#resume{
+    margin-top: 2%;
+    text-align: center;
+}
+.title-resume{
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+.resume-container{
+    margin-top: 2%;
+}
+
+.resume-about{
+    color: rgb(165, 165, 165);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn {
+    position: relative;
+    padding: 1% 2%;
+    margin: 2% 1.5%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    font-weight: 600;
+    background:rgb(119, 119, 119);
+    border-width: 0;
+}
+.btn:before, .btn:after {
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background: rgb(119, 119, 119);
+    transition: .3s cubic-bezier(.75, .24, .01, .9);
+}
+.btn:before {
+    top: 0;
+    right: -5px;
+}
+.btn:after {
+    bottom: 0;
+    left: -5px;
+}
+.btn:hover:before {
+    transform: translateX(-5px);
+}
+.btn:hover:after {
+    transform: translateX(5px);
+}
+.text {
+    position: relative;
+    z-index: 2;
+}
+
+/* Contacts style */
+
+.contacts{
+    margin-top: 2%;
+}
+.contact-title{
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin-left: 47%;
+}
+.contact-container{
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.contact-about{
+    display: flex;
+    flex-direction: column;
+    color: rgb(165, 165, 165);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact{
+    display: flex;
+    margin-bottom: 2%;
+}
+.contact-img{
+    width: 3%;
+    height: 2%;
+    margin-right: 2%;
+}
+
+/* footer style */
+footer{
+    background-color: rgb(37, 37, 37);
+}
+.logo-container{
+    margin-left: 45%;
+}
+.logo-item{
+    border-radius: 50%;
+    margin:2% 2% 2% 0;
+    width: 5%;
+    height: 5%;
+}
+.logo-item:hover{
+    -webkit-box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+    -moz-box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+    box-shadow: 0px 0px 8px 10px rgba(157, 157, 157, 0.32);
+}

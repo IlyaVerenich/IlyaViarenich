@@ -1,0 +1,101 @@
+%ft1{
+    text-align: center;
+    margin-top: 42.23px;
+    font-family: "Nunito";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+
+}
+%ft2{
+    margin-top: 12.11px;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+nav{
+    #features{
+        margin: auto;
+        width: 1104px/1400px*100%;
+
+    }
+    .title{
+        margin-top: 87.16px;
+    }
+    .title-text{
+        font-family: "Nunito";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        color:#415167;
+    }
+    .title-text2{
+        font-family: "Montserrat";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 34px;
+        text-align: center;
+        margin-top: 8.56px;
+        color:#415167;
+    }
+    .feature-items{
+        margin-top: 72px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .discriptions{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 128px;
+        .discription1{
+
+            .title1 {
+
+                @extend %ft1;
+            }
+            .title1-2 {
+
+                @extend %ft2;
+            }
+        }
+        
+        .discription2 {
+            .title2 {
+                @extend %ft1;
+            }
+            .title2-2 {
+                @extend %ft2;
+            }
+        }
+        
+
+        .discription3 {
+            .title3 {
+                @extend %ft1;
+            }
+            .title3-2 {
+                @extend %ft2;
+            }
+        }
+        
+        .discription4 {
+            .title4 {
+                @extend %ft1;
+            }
+            .title4-2 {
+                @extend %ft2;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,311 @@
+%boxes{
+        position: relative;
+        top: 72px;
+        width: 560px;
+        height: 256px;
+        background-color: white;
+        box-shadow: 0px 0px 5px #EDF0F5;
+        .content {
+            
+            display: flex;
+        }
+        .content-names{
+            margin-left: 45px;
+            display: flex;
+            flex-direction: column;
+        }
+        .image {
+            
+            width: 235px;
+            height: 256px;
+            background-color: #EDF0F5;
+            
+        }
+        
+        .price {
+            margin-top: 42px;
+            @extend %price;
+            margin-bottom: 8px;
+            
+        }
+        .name {
+            @extend %title;
+            margin-bottom: 24px;
+
+        }
+        .about {
+            @extend %about;
+            margin-bottom: 26px;
+        }
+        .another{
+            .buy {
+                @extend %btn;
+                margin-right: 29px;
+                
+            }
+            .buy:hover{
+                box-shadow: 0 0 5px #C7A17A;
+            }
+            .buy:active{
+                box-shadow: 0 0 25px #C7A17A;
+            }
+            .more {
+                font-family: "Nunito";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 22px;
+                color: #415167;
+            }
+            .more:hover{
+                text-decoration: underline;
+            }
+            
+        }
+        
+        
+}
+%price{
+    font-family: "Nunito";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color:#C7A17A;
+
+
+}
+%title{
+    font-family: "Nunito";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+%about{
+    font-family: "Nunito";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+//****************************************************************************************************************************************
+
+
+article{
+    #coffee{
+        width: 1400px;
+        height: 894px;
+    }
+    .background{
+        position: absolute;
+        width: 384px;
+        height: 894px;
+        background-color: #415167;
+    }
+    .coffee-title {
+        position: relative;
+        left: 537px;
+        top: 89px;
+        .coffe-title1 {
+            margin-bottom:6px ;
+            margin-left: 48px;
+            font-family: "Nunito";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px;
+            color: #415167;
+        }
+        .coffe-title2 {
+            display: inline;
+            font-family: "Montserrat";
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 34px;
+            color:#415167 ;
+            margin-bottom: 72px;
+        }
+    }
+
+//****************************************************************************************************************************************
+
+
+    .products {
+        position:absolute;
+        margin-left: 130px;
+        .products-box1 {
+            display: flex;
+            .box1 {
+                @extend %boxes;
+            }
+            .box2{
+                margin-left: 30px;
+                @extend %boxes;
+            }
+        }
+        .products-box2 {
+            display: flex;
+            margin-top: 32px;
+            .box4 {
+                @extend %boxes;
+            }
+            .box5 {
+                margin-left: 30px;
+                @extend %boxes;
+            }
+        }
+    }
+    .gift{
+        width: 1270px;
+        height:802px;
+        #gift-set{
+                width: 1076px;
+                height:802px;
+                background-color: #EDF0F5;
+            .title-gift {
+                position: relative;
+                top: 86px;
+                left: 584px;
+                .title-gift1 {
+                    font-family: "Nunito";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+                    color: #415167;
+                }
+                .title-gift2 {
+                    font-family: "Montserrat";
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 34px;   
+                    color: #415167;
+                    margin-left: 49px;
+                }
+            }
+
+//****************************************************************************************************************************************
+
+            .gift-info{
+                display: flex;
+                margin-top: 216px;
+                margin-left: 130px;
+                .giftset-image {
+                    position: absolute;
+                    margin-top: 51px;
+                }
+                
+                .gift-info-about{
+                    display: flex;
+                    flex-direction: column;
+                    .background-gift{
+                        margin-left: 256px;
+                        width: 794px;
+                        height: 460px;
+                        background-color: white;
+                        box-shadow: 0 0 5px #DADADA;
+                    }
+                    .giftset-about{
+                        margin-top: 64px;
+                        margin-left: 299px;
+                        .gift-price {
+                            @extend %price;
+                            margin-bottom: 12px;
+                        }
+                        .gift-title {
+                            @extend %title;
+                            margin-bottom: 12px;
+                        }
+                        .gift-about {
+                            @extend %about;
+                        }
+                        .about-coffee{
+                            display: flex;
+                            margin-top: 24px;
+                            .beans-about {
+                                display: flex;
+                                .beans-titles {
+                                    margin-left: 12px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    .beans-title {
+                                        font-family: "Nunito";
+                                        font-size: 16px;
+                                        font-style: normal;
+                                        font-weight: 300;
+                                        line-height: 22px;
+                                        color: #415167;
+                                    }
+                                    .beans-subtitle {
+                                        font-family: "Nunito";
+                                        font-size: 16px;
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        line-height: 22px;
+                                        color: #415167;
+                                    }
+                                }
+                            }
+                            
+                            .mountain-about {
+                                margin-left: 38px;
+                                display: flex;
+                                .mountain-titles {
+                                    display: flex;
+                                    flex-direction: column;
+                                    margin-left: 12px;
+                                    .mountain-title {
+                                        font-family: "Nunito";
+                                        font-size: 16px;
+                                        font-style: normal;
+                                        font-weight: 300;
+                                        line-height: 22px;
+                                        color: #415167;
+                                    }
+                                    .mountain-subtitle {
+                                        font-family: "Nunito";
+                                        font-size: 16px;
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        line-height: 22px;
+                                        color: #415167;
+                                    }
+                                }   
+                            }
+                        
+                        }    
+                        .btns{
+                            margin-top: 46px;
+                            .buy{
+                                @extend %btn;
+                                margin-right: 124px;
+                            }
+                            .buy:hover{
+                                box-shadow: 0 0 5px #C7A17A;
+                            }
+                            .buy:active{
+                                box-shadow: 0 0 25px #C7A17A;
+                            }
+                            .more {
+                                font-family: "Nunito";
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 22px;
+                                color: #415167;
+                            }
+                            .more:hover{
+                                text-decoration: underline;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,328 @@
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    html {
+        overflow-x: initial !important;
+    }
+    .navigation{
+        width: 60%;
+    }
+    .profile-photo{
+        width: 25%;
+        height: 20%;
+    }
+    .title-skills{
+        font-size: 21px;
+        margin-left: 50%;
+    }
+    .skills-wrapper{
+        margin-left: 20%;
+    }
+    .title-project{
+        font-size: 21px;
+        margin-left: 45%;
+    }
+    .projects-container{
+        margin-left: 15%;
+    }
+    .card-title{
+        margin: 5% 0 5% 50%;
+    }
+    .card1{
+        width: 150%;
+    }
+    .card2{
+        width: 150%;
+        margin-left: 0%;
+    }
+    .card3{
+        width: 150%;
+        margin-left: 0%;
+    }
+    .card4{
+        width: 120%;
+        margin-left: 0%;
+    }
+    .resume-about{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    .contact-title{
+        margin-left: 45%;
+    }
+    .contact-container{
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .contact-img{
+        width: 5%;
+    }
+    .logo-container{
+        margin-left: 20%;
+    }
+    .logo-item{
+        border-radius: 50%;
+        margin:2% 5% 5% 5%;
+        width: 15%;
+        height: 15%;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    html {
+        overflow-x: initial !important;
+    }
+    .navigation{
+        width: 40%;
+    }
+    .item{
+        font-size: 20px;
+    }
+    .profile-photo{
+        width: 30%;
+        height: 25%;
+    }
+    .title-skills{
+        font-size: 21px;
+        margin-left: 50%;
+    }
+    .skills-wrapper{
+        margin-left: 20%;
+    }
+    .title-project{
+        font-size: 21px;
+        margin-left: 45%;
+    }
+    .projects-container{
+        margin-left: 20%;
+    }
+    .card-title{
+        margin: 5% 0 5% 40%;
+    }
+    .card1{
+        width: 100%;
+        margin-left: 20%;
+    }
+    .card2{
+        width: 100%;
+        margin-left: 20%;
+    }
+    .card3{
+        width: 100%;
+        margin-left: 20%;
+    }
+    .card4{
+        width: 100%;
+        margin-left: 20%;
+    }
+    .resume-about{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    .contact-title{
+        margin-left: 45%;
+    }
+    .contact-container{
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+    .contact-img{
+        width: 5%;
+    }
+    .logo-container{
+        margin-left: 20%;
+    }
+    .logo-item{
+        border-radius: 50%;
+        margin:2% 5% 5% 5%;
+        width: 15%;
+        height: 15%;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    html {
+        overflow-x: initial !important;
+    }
+    .navigation{
+        width: 70%;
+        margin-left: 20%;
+    }
+    .item{
+        font-size: 15px;
+    }
+    .title-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-photo{
+        margin-top: 5%;
+        width: 50%;
+        height: 45%;
+    }
+    .title-skills{
+        font-size: 21px;
+        margin-left: 50%;
+    }
+    .skills-wrapper{
+        margin-left: 20%;
+    }
+    .title-project{
+        font-size: 21px;
+        margin-left: 40%;
+    }
+    .projects-container{
+        margin-left: 15%;
+    }
+    .card-title{
+        margin: 5% 0 5% 50%;
+    }
+    .card1{
+        width: 150%;
+    }
+    .card2{
+        width: 150%;
+        margin-left: 0%;
+    }
+    .card3{
+        width: 150%;
+        margin-left: 0%;
+    }
+    .card4{
+        width: 120%;
+        margin-left: 0%;
+    }
+    .resume-about{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    .contact-title{
+        margin: 5% 0 5% 40%;
+    }
+    .contact-container{
+        margin: 5% 0 5% 5%;
+    }
+    .contact-img{
+        width: 5%;
+    }
+    .logo-container{
+        margin-left: 20%;
+    }
+    .logo-item{
+        border-radius: 50%;
+        margin:2% 5% 5% 5%;
+        width: 15%;
+        height: 15%;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    html {
+        overflow-x: initial !important;
+    }
+    .navigation{
+        width: 50%;
+        margin-left: 30%;
+    }
+    .item{
+        font-size: 13px;
+    }
+    .title-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-title{
+        font-size: 21px;
+    }
+    .info-about{
+        margin-top: 5%;
+        font-size: 12px;
+        
+    }
+    .profile-photo{
+        margin-left: 2%;
+        margin-top: 5%;
+        width: 70%;
+        height: 65%;
+    }
+    .title-skills{
+        font-size: 21px;
+        margin-left: 40%;
+    }
+    .skills-wrapper{
+        margin-left: 10%;
+    }
+    .title-project{
+        font-size: 21px;
+        margin-left: 25%;
+    }
+    .projects-container{
+        margin-left: 15%;
+    }
+    .card-title{
+        margin: 10% 0 10% 30%;
+    }
+    .card1{
+        width: 150%;
+    }
+    .card2{
+        width: 150%;
+        margin-left: 0%;
+    }
+    .card3{
+        width: 150%;
+        margin-left: 0%;
+    }
+    .card4{
+        width: 120%;
+        margin-left: 0%;
+    }
+    .title-resume{
+        margin: 10% 0 10% 0;
+    }
+    .resume-about{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    .contact-title{
+        margin:10% 0 10% 35%;
+    }
+    .contact-container{
+        margin: 10% 0 10% 5%;
+    }
+    .contact-img{
+        width: 10%;
+    }
+    .logo-container{
+        margin-left: 20%;
+    }
+    .logo-item{
+        border-radius: 50%;
+        margin:2% 5% 5% 0;
+        width: 20%;
+        height: 20%;
+    }
+}

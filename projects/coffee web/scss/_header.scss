@@ -1,0 +1,120 @@
+%font_menu{
+    font-family: "Nunito";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+
+header{
+    margin: 0 auto;
+    .header {
+        position: relative;
+    }
+    .header-content {
+        position: relative;
+        display: flex;
+        
+    }
+    .logo {
+        margin-top:75.64px/1400px*100%;
+        margin-left: 187.29px/1400px*100%;
+
+    }
+    .header-item {
+        position: relative;
+        margin-left: 139.29px/1400px*100%;
+        
+    }
+    .btn{
+        position: absolute;
+        width:54px/1400px*100% ;
+        height:54px/768px*100% ;
+        background-color: white;
+        margin-left: 754px/1400px*100%;
+        margin-top: 357px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .btn-play{
+            width: 13.5px/54px*100%;
+            height: 10.8px/54px*100%;
+            border-top: 10.8px solid transparent;
+            border-left: 13.5px  solid#C7A17A;
+            border-bottom:10.8px  solid transparent;
+        }
+    }
+    .menu {
+        position: relative;
+        display: flex;
+        background-color: #415167;
+        flex-direction:column;
+        width: 328px/1400px*100%;
+        height: 768px
+    }
+    .menu-content{
+        position: relative;
+    }
+    .cart {
+        margin-top: 86px;
+        margin-left: 56px/273.43px*100%;
+
+    }
+    .menu-items{
+        display: flex;
+        flex-direction: column;
+        margin-top: 123px;
+        margin-left:56px/273.43px*100%;
+        font-family: "Nunito";
+    }
+    .menu-item1 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 30px;
+    }
+    .menu-item2 {
+        @extend %font_menu;
+        margin-bottom: 30px;
+    }
+    .menu-item3 {
+        @extend %font_menu;
+        margin-bottom: 30px;
+    }
+    .menu-item4 {
+        @extend %font_menu;
+        margin-bottom: 30px;
+    }
+    .menu-item5 {
+        @extend %font_menu;
+        margin-bottom: 30px;
+    }
+    .menu-item6 {
+        @extend %font_menu;
+        margin-bottom: 30px;
+    }
+    .text {
+        position: absolute;
+        font-family: Montserrat;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 70px;
+        top: 504px;
+        left: 195px/1400px*100%;
+        color: #415167;
+    }
+    .text1 {
+        width: 486px;
+        color: white;
+        background-color:#C7A17A ;
+        text-align: center;
+        margin-left: -25px;
+    }
+}
+

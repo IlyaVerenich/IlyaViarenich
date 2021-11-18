@@ -1,0 +1,34 @@
+body{
+    width: 480px;
+    height: 480px;
+    padding-top: 15%;
+    margin: 0 auto;
+    background-color: black;
+}
+#container{
+    background-color: black;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container:hover{
+    border-color: red;
+}
+#clock,#date{
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#clock:hover{
+    color: burlywood;
+}
+#date:hover{
+    color: darkorange;
+}

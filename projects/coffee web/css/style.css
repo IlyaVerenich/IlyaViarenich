@@ -1,0 +1,1051 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+html {
+  overflow-x: initial !important;
+}
+
+/*Zeroing*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+header .menu-item2, header .menu-item3, header .menu-item4, header .menu-item5, header .menu-item6 {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+header {
+  margin: 0 auto;
+}
+
+header .header {
+  position: relative;
+}
+
+header .header-content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .logo {
+  margin-top: 5.40286%;
+  margin-left: 13.37786%;
+}
+
+header .header-item {
+  position: relative;
+  margin-left: 9.94929%;
+}
+
+header .btn {
+  position: absolute;
+  width: 3.85714%;
+  height: 7.03125%;
+  background-color: white;
+  margin-left: 53.85714%;
+  margin-top: 357px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .btn .btn-play {
+  width: 25%;
+  height: 20%;
+  border-top: 10.8px solid transparent;
+  border-left: 13.5px solid #C7A17A;
+  border-bottom: 10.8px  solid transparent;
+}
+
+header .menu {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #415167;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 23.42857%;
+  height: 768px;
+}
+
+header .menu-content {
+  position: relative;
+}
+
+header .cart {
+  margin-top: 86px;
+  margin-left: 20.48056%;
+}
+
+header .menu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 123px;
+  margin-left: 20.48056%;
+  font-family: "Nunito";
+}
+
+header .menu-item1 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+header .menu-item2 {
+  margin-bottom: 30px;
+}
+
+header .menu-item3 {
+  margin-bottom: 30px;
+}
+
+header .menu-item4 {
+  margin-bottom: 30px;
+}
+
+header .menu-item5 {
+  margin-bottom: 30px;
+}
+
+header .menu-item6 {
+  margin-bottom: 30px;
+}
+
+header .text {
+  position: absolute;
+  font-family: Montserrat;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 70px;
+  top: 504px;
+  left: 13.92857%;
+  color: #415167;
+}
+
+header .text1 {
+  width: 486px;
+  color: white;
+  background-color: #C7A17A;
+  text-align: center;
+  margin-left: -25px;
+}
+
+nav .discriptions .discription1 .title1, nav .discriptions .discription2 .title2, nav .discriptions .discription3 .title3, nav .discriptions .discription4 .title4 {
+  text-align: center;
+  margin-top: 42.23px;
+  font-family: "Nunito";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+nav .discriptions .discription1 .title1-2, nav .discriptions .discription2 .title2-2, nav .discriptions .discription3 .title3-2, nav .discriptions .discription4 .title4-2 {
+  margin-top: 12.11px;
+  font-family: "Nunito";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: center;
+}
+
+nav #features {
+  margin: auto;
+  width: 78.85714%;
+}
+
+nav .title {
+  margin-top: 87.16px;
+}
+
+nav .title-text {
+  font-family: "Nunito";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #415167;
+}
+
+nav .title-text2 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34px;
+  text-align: center;
+  margin-top: 8.56px;
+  color: #415167;
+}
+
+nav .feature-items {
+  margin-top: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav .discriptions {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 128px;
+}
+
+article .products .products-box1 .box1, article .products .products-box1 .box2, article .products .products-box1 .box3, article .products .products-box2 .box4, article .products .products-box2 .box5, article .products .products-box2 .box6, section .products .products-box2 .box4, section .products .products-box2 .box5, section .products .products-box2 .box6 {
+  position: relative;
+  top: 72px;
+  width: 560px;
+  height: 256px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 5px #EDF0F5;
+          box-shadow: 0px 0px 5px #EDF0F5;
+}
+
+article .products .products-box1 .box1 .content, article .products .products-box1 .box2 .content, article .products .products-box1 .box3 .content, article .products .products-box2 .box4 .content, article .products .products-box2 .box5 .content, article .products .products-box2 .box6 .content, section .products .products-box2 .box4 .content, section .products .products-box2 .box5 .content, section .products .products-box2 .box6 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+article .products .products-box1 .box1 .content-names, article .products .products-box1 .box2 .content-names, article .products .products-box1 .box3 .content-names, article .products .products-box2 .box4 .content-names, article .products .products-box2 .box5 .content-names, article .products .products-box2 .box6 .content-names, section .products .products-box2 .box4 .content-names, section .products .products-box2 .box5 .content-names, section .products .products-box2 .box6 .content-names {
+  margin-left: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+article .products .products-box1 .box1 .image, article .products .products-box1 .box2 .image, article .products .products-box1 .box3 .image, article .products .products-box2 .box4 .image, article .products .products-box2 .box5 .image, article .products .products-box2 .box6 .image, section .products .products-box2 .box4 .image, section .products .products-box2 .box5 .image, section .products .products-box2 .box6 .image {
+  width: 235px;
+  height: 256px;
+  background-color: #EDF0F5;
+}
+
+article .products .products-box1 .box1 .price, article .products .products-box1 .box2 .price, article .products .products-box1 .box3 .price, article .products .products-box2 .box4 .price, article .products .products-box2 .box5 .price, article .products .products-box2 .box6 .price, section .products .products-box2 .box4 .price, section .products .products-box2 .box5 .price, section .products .products-box2 .box6 .price {
+  margin-top: 42px;
+  margin-bottom: 8px;
+}
+
+article .products .products-box1 .box1 .name, article .products .products-box1 .box2 .name, article .products .products-box1 .box3 .name, article .products .products-box2 .box4 .name, article .products .products-box2 .box5 .name, article .products .products-box2 .box6 .name, section .products .products-box2 .box4 .name, section .products .products-box2 .box5 .name, section .products .products-box2 .box6 .name {
+  margin-bottom: 24px;
+}
+
+article .products .products-box1 .box1 .about, article .products .products-box1 .box2 .about, article .products .products-box1 .box3 .about, article .products .products-box2 .box4 .about, article .products .products-box2 .box5 .about, article .products .products-box2 .box6 .about, section .products .products-box2 .box4 .about, section .products .products-box2 .box5 .about, section .products .products-box2 .box6 .about {
+  margin-bottom: 26px;
+}
+
+article .products .products-box1 .box1 .another .buy, article .products .products-box1 .box2 .another .buy, article .products .products-box1 .box3 .another .buy, article .products .products-box2 .box4 .another .buy, article .products .products-box2 .box5 .another .buy, article .products .products-box2 .box6 .another .buy, section .products .products-box2 .box4 .another .buy, section .products .products-box2 .box5 .another .buy, section .products .products-box2 .box6 .another .buy {
+  margin-right: 29px;
+}
+
+article .products .products-box1 .box1 .another .buy:hover, article .products .products-box1 .box2 .another .buy:hover, article .products .products-box1 .box3 .another .buy:hover, article .products .products-box2 .box4 .another .buy:hover, article .products .products-box2 .box5 .another .buy:hover, article .products .products-box2 .box6 .another .buy:hover, section .products .products-box2 .box4 .another .buy:hover, section .products .products-box2 .box5 .another .buy:hover, section .products .products-box2 .box6 .another .buy:hover {
+  -webkit-box-shadow: 0 0 5px #C7A17A;
+          box-shadow: 0 0 5px #C7A17A;
+}
+
+article .products .products-box1 .box1 .another .buy:active, article .products .products-box1 .box2 .another .buy:active, article .products .products-box1 .box3 .another .buy:active, article .products .products-box2 .box4 .another .buy:active, article .products .products-box2 .box5 .another .buy:active, article .products .products-box2 .box6 .another .buy:active, section .products .products-box2 .box4 .another .buy:active, section .products .products-box2 .box5 .another .buy:active, section .products .products-box2 .box6 .another .buy:active {
+  -webkit-box-shadow: 0 0 25px #C7A17A;
+          box-shadow: 0 0 25px #C7A17A;
+}
+
+article .products .products-box1 .box1 .another .more, article .products .products-box1 .box2 .another .more, article .products .products-box1 .box3 .another .more, article .products .products-box2 .box4 .another .more, article .products .products-box2 .box5 .another .more, article .products .products-box2 .box6 .another .more, section .products .products-box2 .box4 .another .more, section .products .products-box2 .box5 .another .more, section .products .products-box2 .box6 .another .more {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  color: #415167;
+}
+
+article .products .products-box1 .box1 .another .more:hover, article .products .products-box1 .box2 .another .more:hover, article .products .products-box1 .box3 .another .more:hover, article .products .products-box2 .box4 .another .more:hover, article .products .products-box2 .box5 .another .more:hover, article .products .products-box2 .box6 .another .more:hover, section .products .products-box2 .box4 .another .more:hover, section .products .products-box2 .box5 .another .more:hover, section .products .products-box2 .box6 .another .more:hover {
+  text-decoration: underline;
+}
+
+article .products .products-box1 .box1 .price, article .products .products-box1 .box2 .price, article .products .products-box1 .box3 .price, article .products .products-box2 .box4 .price, article .products .products-box2 .box5 .price, article .products .products-box2 .box6 .price, section .products .products-box2 .box4 .price, section .products .products-box2 .box5 .price, section .products .products-box2 .box6 .price, article .gift #gift-set .gift-info .gift-info-about .giftset-about .gift-price, section .products .product-box .box1 .prices .price__item1, section .products .product-box .box2 .prices .price__item1, section .products .product-box .box3 .prices .price__item1, section .products .product-box .box4 .prices .price__item1 {
+  font-family: "Nunito";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: #C7A17A;
+}
+
+article .products .products-box1 .box1 .name, article .products .products-box1 .box2 .name, article .products .products-box1 .box3 .name, article .products .products-box2 .box4 .name, article .products .products-box2 .box5 .name, article .products .products-box2 .box6 .name, section .products .products-box2 .box4 .name, section .products .products-box2 .box5 .name, section .products .products-box2 .box6 .name, article .gift #gift-set .gift-info .gift-info-about .giftset-about .gift-title, section .products .product-box .box1 .name, section .products .product-box .box2 .name, section .products .product-box .box3 .name, section .products .product-box .box4 .name {
+  font-family: "Nunito";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+article .products .products-box1 .box1 .about, article .products .products-box1 .box2 .about, article .products .products-box1 .box3 .about, article .products .products-box2 .box4 .about, article .products .products-box2 .box5 .about, article .products .products-box2 .box6 .about, section .products .products-box2 .box4 .about, section .products .products-box2 .box5 .about, section .products .products-box2 .box6 .about, article .gift #gift-set .gift-info .gift-info-about .giftset-about .gift-about, section .products .product-box .box1 .about, section .products .product-box .box2 .about, section .products .product-box .box3 .about, section .products .product-box .box4 .about {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+article .products .products-box1 .box1 .another .buy, article .products .products-box1 .box2 .another .buy, article .products .products-box1 .box3 .another .buy, article .products .products-box2 .box4 .another .buy, article .products .products-box2 .box5 .another .buy, article .products .products-box2 .box6 .another .buy, section .products .products-box2 .box4 .another .buy, section .products .products-box2 .box5 .another .buy, section .products .products-box2 .box6 .another .buy, article .gift #gift-set .gift-info .gift-info-about .giftset-about .btns .buy, section .products .product-box .box1 .another .buy, section .products .product-box .box2 .another .buy, section .products .product-box .box3 .another .buy, section .products .product-box .box4 .another .buy {
+  width: 134px;
+  font-family: "Nunito";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  background: #C7A17A;
+  color: white;
+  height: 32px;
+  border-radius: 19px;
+}
+
+article #coffee {
+  width: 1400px;
+  height: 894px;
+}
+
+article .background {
+  position: absolute;
+  width: 384px;
+  height: 894px;
+  background-color: #415167;
+}
+
+article .coffee-title {
+  position: relative;
+  left: 537px;
+  top: 89px;
+}
+
+article .coffee-title .coffe-title1 {
+  margin-bottom: 6px;
+  margin-left: 48px;
+  font-family: "Nunito";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: #415167;
+}
+
+article .coffee-title .coffe-title2 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34px;
+  color: #415167;
+  margin-bottom: 72px;
+}
+
+article .products {
+  position: absolute;
+  margin-left: 130px;
+}
+
+article .products .products-box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+article .products .products-box1 .box2 {
+  margin-left: 30px;
+}
+
+article .products .products-box1 .box3 {
+  margin-left: 30px;
+  opacity: 0.3;
+}
+
+article .products .products-box1 .box3 .image {
+  width: 94px;
+}
+
+article .products .products-box1 .box3 .content-names {
+  display: none;
+}
+
+article .products .products-box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
+}
+
+article .products .products-box2 .box5 {
+  margin-left: 30px;
+}
+
+article .products .products-box2 .box6 {
+  margin-left: 30px;
+  opacity: 0.3;
+}
+
+article .products .products-box2 .box6 .image {
+  width: 94px;
+}
+
+article .products .products-box2 .box6 .content-names {
+  display: none;
+}
+
+article .btn-right {
+  display: block;
+  position: relative;
+  margin-top: 28.07606%;
+  margin-left: 1286px;
+}
+
+article .btn-right .btn-right-arrow {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: #C7A17A;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+article .btn-right .btn-right-arrow:hover {
+  -webkit-box-shadow: 0px 0px 15px #C7A17A;
+          box-shadow: 0px 0px 15px #C7A17A;
+}
+
+article .gift {
+  width: 1270px;
+  height: 802px;
+}
+
+article .gift #gift-set {
+  width: 1076px;
+  height: 802px;
+  background-color: #EDF0F5;
+}
+
+article .gift #gift-set .title-gift {
+  position: relative;
+  top: 86px;
+  left: 584px;
+}
+
+article .gift #gift-set .title-gift .title-gift1 {
+  font-family: "Nunito";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: #415167;
+}
+
+article .gift #gift-set .title-gift .title-gift2 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34px;
+  color: #415167;
+  margin-left: 49px;
+}
+
+article .gift #gift-set .gift-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 216px;
+  margin-left: 130px;
+}
+
+article .gift #gift-set .gift-info .giftset-image {
+  position: absolute;
+  margin-top: 51px;
+}
+
+article .gift #gift-set .gift-info .gift-info-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .background-gift {
+  margin-left: 256px;
+  width: 794px;
+  height: 460px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 5px #DADADA;
+          box-shadow: 0 0 5px #DADADA;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about {
+  margin-top: 64px;
+  margin-left: 299px;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .gift-price {
+  margin-bottom: 12px;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .gift-title {
+  margin-bottom: 12px;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .about-coffee {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 24px;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .about-coffee .beans-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .about-coffee .beans-about .beans-titles {
+  margin-left: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .about-coffee .beans-about .beans-titles .beans-title {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  color: #415167;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .about-coffee .beans-about .beans-titles .beans-subtitle {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  color: #415167;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .about-coffee .mountain-about {
+  margin-left: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .about-coffee .mountain-about .mountain-titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 12px;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .about-coffee .mountain-about .mountain-titles .mountain-title {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  color: #415167;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .about-coffee .mountain-about .mountain-titles .mountain-subtitle {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  color: #415167;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .btns {
+  margin-top: 46px;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .btns .buy {
+  margin-right: 124px;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .btns .buy:hover {
+  -webkit-box-shadow: 0 0 5px #C7A17A;
+          box-shadow: 0 0 5px #C7A17A;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .btns .buy:active {
+  -webkit-box-shadow: 0 0 25px #C7A17A;
+          box-shadow: 0 0 25px #C7A17A;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .btns .more {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  color: #415167;
+}
+
+article .gift #gift-set .gift-info .gift-info-about .giftset-about .btns .more:hover {
+  text-decoration: underline;
+}
+
+article .gift #gift-set .gift-info .tab {
+  -webkit-box-shadow: 0 0 5px #DADADA;
+          box-shadow: 0 0 5px #DADADA;
+}
+
+article .gift #gift-set .gift-info .tab__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 88px;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+article .gift #gift-set .gift-info .tab__item1 {
+  height: 154px;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34px;
+}
+
+article .gift #gift-set .gift-info .tab__item2 {
+  height: 154px;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34px;
+}
+
+article .gift #gift-set .gift-info .tab__item3 {
+  height: 154px;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34px;
+}
+
+article .gift #gift-set .gift-info .tab__item1:hover {
+  background-color: white;
+}
+
+article .gift #gift-set .gift-info .tab__item1:focus {
+  background-color: white;
+  color: #415167;
+}
+
+article .gift #gift-set .gift-info .tab__item1:focus__item2 {
+  opacity: 0.3;
+}
+
+article .gift #gift-set .gift-info .tab__item1:focus__item3 {
+  opacity: 0.3;
+}
+
+article .gift #gift-set .gift-info .tab__item2:hover {
+  background-color: white;
+}
+
+article .gift #gift-set .gift-info .tab__item2:focus {
+  background-color: white;
+  color: #415167;
+}
+
+article .gift #gift-set .gift-info .tab__item2:focus .gift-info {
+  display: none;
+}
+
+article .gift #gift-set .gift-info .tab__item2:focus__item1 {
+  opacity: 0.3;
+}
+
+article .gift #gift-set .gift-info .tab__item2:focus__item3 {
+  opacity: 0.3;
+}
+
+article .gift #gift-set .gift-info .tab__item3:hover {
+  background-color: white;
+}
+
+article .gift #gift-set .gift-info .tab__item3:focus {
+  background-color: white;
+  color: #415167;
+}
+
+article .gift #gift-set .gift-info .tab__item3:focus__item1 {
+  opacity: 0.3;
+}
+
+article .gift #gift-set .gift-info .tab__item3:focus__item2 {
+  opacity: 0.3;
+}
+
+section .products .product-box .box1, section .products .product-box .box2, section .products .product-box .box3, section .products .product-box .box4 {
+  position: relative;
+  top: 72px;
+  width: 360px;
+  height: 562px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 15px #eee;
+          box-shadow: 0px 0px 15px #eee;
+}
+
+section .products .product-box .box1 .content-names, section .products .product-box .box2 .content-names, section .products .product-box .box3 .content-names, section .products .product-box .box4 .content-names {
+  margin-left: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .products .product-box .box1 .image, section .products .product-box .box2 .image, section .products .product-box .box3 .image, section .products .product-box .box4 .image {
+  width: 360px;
+  height: 300px;
+  background-color: #EDF0F5;
+}
+
+section .products .product-box .box1 .prices, section .products .product-box .box2 .prices, section .products .product-box .box3 .prices, section .products .product-box .box4 .prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 42px;
+  margin-bottom: 8px;
+}
+
+section .products .product-box .box1 .prices .price__item2, section .products .product-box .box2 .prices .price__item2, section .products .product-box .box3 .prices .price__item2, section .products .product-box .box4 .prices .price__item2 {
+  font-family: "Nunito";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 19px;
+  margin-left: 30px;
+  color: #415167;
+  text-decoration: line-through;
+}
+
+section .products .product-box .box1 .name, section .products .product-box .box2 .name, section .products .product-box .box3 .name, section .products .product-box .box4 .name {
+  margin-bottom: 10px;
+}
+
+section .products .product-box .box1 .about, section .products .product-box .box2 .about, section .products .product-box .box3 .about, section .products .product-box .box4 .about {
+  margin-bottom: 32px;
+}
+
+section .products .product-box .box1 .another .buy, section .products .product-box .box2 .another .buy, section .products .product-box .box3 .another .buy, section .products .product-box .box4 .another .buy {
+  margin-right: 65px;
+}
+
+section .products .product-box .box1 .another .buy:hover, section .products .product-box .box2 .another .buy:hover, section .products .product-box .box3 .another .buy:hover, section .products .product-box .box4 .another .buy:hover {
+  -webkit-box-shadow: 0 0 5px #C7A17A;
+          box-shadow: 0 0 5px #C7A17A;
+}
+
+section .products .product-box .box1 .another .buy:active, section .products .product-box .box2 .another .buy:active, section .products .product-box .box3 .another .buy:active, section .products .product-box .box4 .another .buy:active {
+  -webkit-box-shadow: 0 0 25px #C7A17A;
+          box-shadow: 0 0 25px #C7A17A;
+}
+
+section .products .product-box .box1 .another .more, section .products .product-box .box2 .another .more, section .products .product-box .box3 .another .more, section .products .product-box .box4 .another .more {
+  font-family: "Nunito";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  color: #415167;
+}
+
+section .products .product-box .box1 .another .more:hover, section .products .product-box .box2 .another .more:hover, section .products .product-box .box3 .another .more:hover, section .products .product-box .box4 .another .more:hover {
+  text-decoration: underline;
+}
+
+section #combo {
+  width: 1400px;
+  height: 906px;
+}
+
+section .background {
+  margin-left: 1074px;
+  position: absolute;
+  width: 326px;
+  height: 906px;
+  background-color: #415167;
+}
+
+section .combo-titles {
+  position: relative;
+  left: 537px;
+  top: 89px;
+}
+
+section .combo-titles .combo-title {
+  margin-bottom: 6px;
+  margin-left: 48px;
+  font-family: "Nunito";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: #415167;
+}
+
+section .combo-titles .combo-subtitle {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34px;
+  color: #415167;
+  margin-bottom: 72px;
+}
+
+section .products {
+  position: absolute;
+  margin-left: 130px;
+}
+
+section .products .product-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .products .product-box .box2 {
+  margin-left: 30px;
+}
+
+section .products .product-box .box3 {
+  margin-left: 30px;
+}
+
+section .products .product-box .box4 {
+  margin-left: 30px;
+  opacity: 0.3;
+}
+
+section .products .product-box .box4 .image {
+  width: 94px;
+}
+
+section .products .product-box .box4 .content-names {
+  display: none;
+}
+
+section .products .products-box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
+}
+
+section .products .products-box2 .box5 {
+  margin-left: 30px;
+}
+
+section .products .products-box2 .box6 {
+  margin-left: 30px;
+  opacity: 0.3;
+}
+
+section .products .products-box2 .box6 .image {
+  width: 94px;
+}
+
+section .products .products-box2 .box6 .content-names {
+  display: none;
+}
+
+section .btn-right {
+  display: block;
+  position: relative;
+  margin-top: 28.07606%;
+  margin-left: 1286px;
+}
+
+section .btn-right .btn-right-arrow {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: #C7A17A;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+section .btn-right .btn-right-arrow:hover {
+  -webkit-box-shadow: 0px 0px 15px #C7A17A;
+          box-shadow: 0px 0px 15px #C7A17A;
+}
+
+footer {
+  position: relative;
+  font-family: Nunito;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #415167;
+}
+
+footer .footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #EDF0F5;
+  height: 60px;
+  top: 100%;
+}
+
+body {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+body a {
+  color: white;
+}

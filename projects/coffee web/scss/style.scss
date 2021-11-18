@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+@import "nullstyle";
+@import "_header";
+@import "_nav";
+@import "_article";
+@import "_section";
+@import "_footer";
+
+
+body{
+    margin: 0 auto;
+    width: 1400px;
+    a{
+        color: white;
+    }
+}
+
+
+@media (max-width:1200px){
+	.container{
+		max-width:970px;
+	}
+}
+@media (max-width:992px){
+	.container{
+		max-width:750px;
+	}
+}
+@media (max-width:767px){
+	.container{
+		max-width:none;
+	}
+}
