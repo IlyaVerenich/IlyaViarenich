@@ -86,28 +86,32 @@
         width: 40%;
     }
     .item{
-        font-size: 20px;
+        font-size: 30px;
     }
     .profile-photo{
-        width: 30%;
-        height: 25%;
+        width: 40%;
+        height: 35%;
     }
     .title-skills{
-        font-size: 21px;
-        margin-left: 50%;
+        font-size: 60px;
+        margin-left: 45%;
     }
     .skills-wrapper{
         margin-left: 20%;
     }
+    .item-skill{
+        font-size: 40px;
+    }
     .title-project{
-        font-size: 21px;
-        margin-left: 45%;
+        font-size: 60px;
+        margin-left: 25%;
     }
     .projects-container{
-        margin-left: 20%;
+        margin-left: 15%;
     }
     .card-title{
-        margin: 5% 0 5% 40%;
+        font-size: 40px;
+        margin: 5% 0 5% 30%;
     }
     .card1{
         width: 100%;
@@ -126,12 +130,26 @@
         margin-left: 20%;
     }
     .resume-about{
+        font-size: 40px;
         margin-top: 5%;
         margin-bottom: 5%;
         width: 100%;
     }
+    .title-resume{
+        font-size: 60px;
+    }
+    .text{
+        font-size: 30px;
+    }
+    .mail{
+        font-size: 30px;
+    }
+    .tel{
+        font-size: 30px;
+    }
     .contact-title{
-        margin-left: 45%;
+        margin-left: 40%;
+        font-size: 60px;
     }
     .contact-container{
         margin-top: 5%;
@@ -206,7 +224,7 @@
     }
     .card4{
         width: 120%;
-        margin-left: 0%;
+        margin-left: 15%;
     }
     .resume-about{
         margin-top: 5%;
@@ -279,10 +297,10 @@
         margin-left: 25%;
     }
     .projects-container{
-        margin-left: 15%;
+        margin-left: 10%;
     }
     .card-title{
-        margin: 10% 0 10% 30%;
+        margin: 10% 0 10% 50%;
     }
     .card1{
         width: 150%;
@@ -297,7 +315,7 @@
     }
     .card4{
         width: 120%;
-        margin-left: 0%;
+        margin-left: 15%;
     }
     .title-resume{
         margin: 10% 0 10% 0;
